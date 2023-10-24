@@ -1,0 +1,369 @@
+/* . {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+
+.box-header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.LogoChinh img {
+    width: 100px;
+    margin: 0px;
+    margin-right: 5px;
+    margin-left: -200px;
+}
+
+.logohotline {
+    text-align: center;
+}
+
+.logohotline img {
+    width: 50px;
+    margin: 10px;
+    margin-left: -50px;
+
+
+}
+
+.PhoneNum {
+    margin-left: 0px;
+    margin-right: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logodangnhap1 img {
+    width: 57px;
+
+}
+
+.logodangnhap1 {
+    margin-right: 20px;
+}
+
+.logogiohang img {
+    width: 57px;
+    margin: 0px;
+}
+
+.menu-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.search1 {
+
+    margin-right: 100px;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    width: 200px;
+    height: 30px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+}
+
+li {
+    float: left;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 100px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: aqua;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: inline-block;
+    /* Đặt thành inline-block để các mục nằm ngang */
+    text-align: center;
+    /* Căn giữa nội dung trong mỗi mục */
+    width: 15%;
+    /* Đặt chiều rộng của mỗi mục, bạn có thể điều chỉnh giá trị này tùy thuộc vào số lượng mục */
+    box-sizing: border-box;
+    /* Đảm bảo rằng padding và border không tăng kích thước của mục */
+}
+
+.dropdown-content a:hover {
+    background-color: aqua;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.Banner {
+    display: flex;
+    justify-content: center;
+    height: 55vh;
+}
+
+.row {
+    display: flex;
+    margin: auto;
+
+    /* position: absolute; */
+    /* Sử dụng flexbox để xếp các phần tử trong hàng */
+}
+
+.wrapper {
+    width: 100px;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.khung {
+    width: 40%;
+    /* Chiều rộng của mỗi khung */
+    height: 70px;
+    /* Độ cao của mỗi khung */
+    border: 1px solid #000;
+    /* Đường viền đen 1px */
+    border-color: rgb(138, 106, 106);
+    border-radius: 10px;
+    margin: 20px;
+    /* Khoảng cách giữa các khung */
+    text-align: center;
+    /* Căn giữa nội dung trong khung */
+    color: orange;
+    line-height: 30px;
+    /* Canh giữa nội dung theo chiều dọc */
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.anhkhung {
+    display: flex;
+    height: 5vh;
+}
+
+.text1 {
+    text-align: center;
+    font-size: 200%;
+    color: orange;
+}
+
+.anhsanphammoi {
+    display: flex;
+    text-align: center
+}
+
+.khungsanphammoi {
+    /* width: 1450px;
+    height: 450px;
+    text-align: center;
+    background-color: orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+
+    width: 1450px;
+    height: 450px;
+    text-align: center;
+    background-color: orange;
+    /* justify-content: space-around; */
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 0%);
+}
+
+.khungsanphammoi img {
+    width: 23%;
+    /* Chiều rộng của mỗi ảnh (45% để có khoảng trống giữa các ảnh) */
+    margin: 5px;
+    /* Khoảng trống giữa các ảnh */
+}
+
+.text2 {
+    text-align: center;
+    font-size: 150%;
+    color: white;
+    padding: 20px;
+}
+
+.text3 {
+    text-align: center;
+    font-size: 70%;
+    color: black;
+    padding: 30px;
+    background-color: white;
+    width: 240px;
+    height: 20px;
+}
+
+.saleoff {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.saleoff img {
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+.sanphamcaulong {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+}
+
+.sanphamcaulong img {
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+.khungden {
+    width: 100vw;
+    /* Chiều rộng của khung bằng với chiều rộng của viewport width */
+    height: 400px;
+    /* Chiều cao của khung, bạn có thể điều chỉnh theo ý muốn */
+    background-color: #333;
+    /* Màu nền của khung */
+    text-align: left;
+    /* Căn trái nội dung chữ trong các cột */
+    line-height: 20px;
+    /* Dùng để căn giữa nội dung theo chiều dọc, với chiều cao là 200px */
+    color: white;
+    /* Màu chữ */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    line-height: 25px;
+    /* Canh giữa nội dung theo chiều dọc */
+}
+
+.cot {
+    flex: 1;
+    /* Phần tử col sẽ chiếm đủ không gian trong khung */
+    color: white;
+
+}
+
+.khungcam {
+
+    width: 100vw;
+    /* Chiều rộng của khung bằng với chiều rộng của viewport width */
+    height: 80px;
+    /* Chiều cao của khung, bạn có thể điều chỉnh theo ý muốn */
+    background-color: orange;
+    /* Màu nền của khung */
+    text-align: center;
+    /* Căn trái nội dung chữ trong các cột */
+    line-height: 25px;
+    /* Dùng để căn giữa nội dung theo chiều dọc, với chiều cao là 200px */
+    color: white;
+    /* Màu chữ */
+    margin-top: -50px;
+    /* Dịch chuyển khung lên 20px */
+
+}
+
+.btn {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 20px;
+    background: white;
+    font-size: 28px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all 1s;
+}
+
+.btn:after,
+.btn:before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border: 0px solid #fff;
+    transition: all 0.8s;
+}
+
+.btn:after {
+    top: 0px;
+    left: 0px;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+}
+
+.btn:before {
+    bottom: 0px;
+    right: 0px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.btn:hover {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.btn:hover:before,
+.btn:hover:after {
+    width: 100%;
+    height: 100%;
+}
+
+/* Your existing styles for .data-container */
+.data-container {
+    background: #ffebee;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
